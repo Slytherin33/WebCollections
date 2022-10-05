@@ -1,0 +1,23 @@
+h1{
+    color: purple;
+    font-size: 50px;
+  }
+  
+  img:hover{
+    filter: drop-shadow(30px 10px 4px grey);
+  }
+  
+  .pizza{
+    background-color: brown;
+    filter: drop-shadow(30px 10px 4px #D54C4C);
+    height: 330px;
+    width: 330px;
+  }
+  
+  .burger{
+    background-color: brown;
+    filter: drop-shadow(30px 10px 4px #B6C867);
+    height: 330px;
+    width: 330px;
+  }
+  

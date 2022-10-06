@@ -1,0 +1,118 @@
+section{
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: auto;
+}
+.image{
+    background: url("117.jpg") center/cover no-repeat;
+    opacity: 0.9;
+
+}
+.content {
+    background: rgb(50, 50, 50);;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+  text-align: center;
+  float: none;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding: 13px 0;
+  color: yellow;
+}
+
+.content p{
+  color: #B7CADB;
+    padding: 15px 0;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 67%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 0.5px solid white;
+    list-style: none;
+    border-radius: 5px;
+    width: 160px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.links li:hover{
+  background-color: white;
+  color: black;
+}
+.links li:hover a{
+    color :black;
+}
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: white;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #30AADD;
+}
+
+@media(max-width: 992px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}

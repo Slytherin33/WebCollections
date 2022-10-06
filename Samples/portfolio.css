@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Lucida Handwriting;
+  }
+  
+  h1{
+    margin-top: 0;
+    font-size: 50px;
+    padding-top: 30px;
+    color: #FF5E78;
+  }
+  
+  .intro{
+    font-size: 25px;
+    font-weight: normal;
+    color: #FF5E78;
+  }
+  
+  h2{
+    font-family: Rockwell;
+    font-size: 30px;
+    color: #FF5E78;
+  }
+  
+  hr{
+    border-style:dashed solid none none;
+    border-color: #DF5E5E;
+    border-width:3px;
+    width:10%;
+  }
+  
+  .p{
+    line-height: 2;
+  }
+  .abc{
+    height: 400px;
+    width: 600px;
+  }
+  
+  .top-container{
+    background-color: #ECE2E1;
+    padding-top: 100px;
+  }
+  
+  .middle-container{
+    background-color: white;
+  }
+  
+  .bottom-container{
+    background-color: #DF5E5E;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  span{
+    text-decoration: underline;
+  }
+  
+  .settings{
+    position: relative;
+    left: 300px;
+    width: 6%;
+  }
+  
+  .message{
+    position: absolute;
+    left: 200px;
+    width: 6%;
+  }
+  
+  .me{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+  }
+  
+  .Programing{
+    width: 25%;
+    text-align: left;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .illustration{
+    width: 25%;
+    text-align: left;
+    float: right;
+    margin-left: 30px;
+  }
+  
+  .contact{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .btn{
+      background-color:#DF5E5E;
+      border-radius:28px;
+      border:1px solid #black;
+      display:inline-block;
+      cursor:pointer;
+      color: white;
+      font-family:Rockwell;
+      font-size:17px;
+      padding:16px 31px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #black;
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+  
+  .btn:hover {
+      background-color:#FF616D;
+  }
+  
+  .btn:active {
+      position:relative;
+      top:1px;
+  }
+  
+  .footer-link{
+    color: black;
+    padding: 30px;
+    font-family: Rockwell;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover{
+    color: white;
+  }
+  
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  
+  .profile{
+    width: 50%;
+    line-height: 2;
+    margin: auto;
+  }
+  
+  .Skills{
+    margin-bottom: 0;
+  }
+  
+  .end{
+    color: black;
+    margin-bottom: 0;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: Rockwell;
+  }
+  

@@ -9,3 +9,8 @@ Click Here to see the [HTML Cheatsheet](https://github.com/Slytherin33/WebCollec
 
 #### JavaScript - Cheetsheet
 Click Here to see the [JavaScript Cheatsheet](https://github.com/Slytherin33/WebCollections/blob/main/JavaScript_Cheatsheet.md)
+
+#### How to contribute?
+* See Here [CONTRIBUTING.md](https://github.com/Slytherin33/WebCollections/blob/main/Contributing.md)
+
+_Thank You_ For Your Contribution

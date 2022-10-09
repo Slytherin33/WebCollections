@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Sports</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/dusk/344/bbb.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav-main">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Meta Sports</a>
+              <form class="d-flex " role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Explore Contents</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bags & Backpacks
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Sports Bags</a></li>
+                        <li><a class="dropdown-item" href="#">Bagpacks</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Travel bag</a></li>
+                      </ul>
+                      
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hydration & Nutrition
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Isotonic Drinks</a></li>
+                        <li><a class="dropdown-item" href="#">Shakers</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sports & Training Accessories
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Fitness Accessories</a></li>
+                        <li><a class="dropdown-item" href="#">Cycling Accessories</a></li>
+                        <li><a class="dropdown-item" href="#">Archery & Darts</a></li>
+                        <li><a class="dropdown-item" href="#">Cones and Ladders</a></li>
+                        <li><a class="dropdown-item" href="#">Support and Braces</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="slider-main">
+      <div class="text-overlay mt-5">
+        <h1>Ready to Rumble</h1>
+      </div>
+      <div class="carousel-main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJla2tpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1570865116909-d358c47f1806?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3ljbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <h1 class="head-sec-01">Deal of the day</h1>
+      <div class="product-body">
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1570539589815-0e1f6679609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Adult Hybrid Cycle Riverside 500 - Black</p>
+            <h6>$ 2,999</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <h1 class="head-sec-01">Winter Sale</h1>
+      <div class="product-body">
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">consectetur adipiscing elit- X303BDG02</p>
+            <h6>$ 499</h6>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="footer-card card text-bg-dark">
+        <img src="https://images.unsplash.com/photo-1525973132219-a04334a76080?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwzNTQxMTU1fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Contact Us</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur vestibulum diam, eget vestibulum orci ullamcorper sed. Donec eu purus commodo, tincidunt turpis vulputate, consectetur libero. Duis tincidunt nulla non lectus vulputate luctus. Donec orci lorem, bibendum quis ex sed, tincidunt hendrerit mi. Nunc ac laoreet nunc. Duis interdum mattis viverra. Etiam semper nisl ac ipsum </p>
+          <p class="card-text"><small>Phone No.:- 9894XXXXXX</small></p>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

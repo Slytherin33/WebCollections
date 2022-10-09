@@ -1,4 +1,19 @@
-# WebCollections
+<h2 align="center">WebCollections</h2>
+
+  <p align="center">
+    A place to start and participate. Welcome!
+    <br />
+    <a href="https://github.com/Slytherin33/WebCollections"><strong>Explore the documents »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Slytherin33/WebCollections">See demo</a>
+    ·
+    <a href="https://github.com/Slytherin33/WebCollections/issues/new?assignees=&labels=feature&template=bug_report.md&title=">Report a Bug</a>
+    ·
+    <a href="https://github.com/Slytherin33/WebCollections/issues/new?assignees=&labels=feature&template=feature_request.md&title=">Request feature</a>
+  </p>
+  <p align="center">
+
 ## CHEATSHEETS
 
 #### CSS - Cheatsheet

@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --gray:#212329;
+    --red:rgb(235, 59, 59);
+    --blue:#337AF1;
+}
+.footer-container{
+    background-color: var(--gray);
+    padding: 2rem 0 4rem 0;
+}
+
+.footer{
+    width:80%;
+    background-color: var(--gray);
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px auto;   
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+.footer-heading a{
+    color:white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading:hover{
+    color:var(--red);
+    transition: all 0.3s ease-out;
+}
+
+.footer-email-form h2{
+    margin-bottom:2rem;
+}
+#footer-email{
+    width:250px;
+    height: 40px;
+    border-radius:4px;
+    outline:none;
+    border:none;
+    padding-left:0.5rem;
+    font-size: 1rem;
+    margin-bottom:1rem;
+    margin-right: 5px;
+}
+#footer-email::placeholder{
+    color: var(--gray);
+}
+
+#footer-email-btn{
+    width: 150px;
+    height: 41px;
+    background-color: var(--red);
+    outline:none;
+    border:none;
+    color:white;
+    border-radius: 4px;
+    font-size: 18px;
+}
+#footer-email-btn:hover{
+    background-color: var(--blue);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px){
+    .footer-email-form{
+        margin-top:4rem;
+    }
+    .footer-email-form h2{
+        text-align: center;
+    }
+}
+@media screen and (max-width:720px){
+    .footer3{
+        display: none;
+    }
+    .footer-email-form{
+        margin-top:2rem;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:442px){
+    .footer3{
+        display: flex;
+    }
+    .footer-heading{
+        width: 80%;
+        margin:auto 0;
+        margin-bottom: 2rem;
+    }
+    .footer-email-form{
+        margin-top:2rem;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+

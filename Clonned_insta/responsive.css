@@ -1,0 +1,13 @@
+
+@media (max-width: 870px) {
+    .phones {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .box {
+        background-color: inherit;
+        border: none;
+    }
+}

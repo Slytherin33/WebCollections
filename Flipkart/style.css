@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #2874f0;
+}
+
+nav {
+    display: flex;
+    width: 97vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 74px;
+    padding: 0px 12px 0 196px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    height: 1vh;
+    width: 25vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.login button {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    margin: 0 0 0 6vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 2vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    flex-direction: column;
+    /* height: calc(100vh - 50px - 7vh); */
+}
+
+.slider {
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+    /* height: 320px; */
+    /* padding: 10px auto 10px auto; */
+    /* border: gray 2px solid; */
+}
+.card {
+    width: 91vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 25px auto;
+    border: ridge;
+    overflow: hidden;
+}
+
+.card1 {
+    width: 91vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: -37px auto auto auto;
+    border: ridge;
+    overflow: hidden
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card-item {
+    width: 160px;
+    display: flex;
+    margin: 12px 0 30px 0;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+.lines {
+    margin: 9px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #172337;
+    color: white;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, Arial, sans-serif;
+}

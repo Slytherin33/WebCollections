@@ -1,0 +1,95 @@
+@media screen and (max-width:1200) {
+    .loginbutton {
+        width: 65px;
+        margin: 0px 0 7px 0vw;
+    }
+
+    nav ul {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1116px) {
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: none;
+    }
+
+    .logo {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .logo img {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .text {
+        width: 50vw;
+        height: 1.5vw;
+    }
+
+    nav ul {
+        margin: 0 0 0 5vw;
+    }
+
+    .login {
+        margin: 5px 0 12px 0;
+    }
+
+    .cards {
+        overflow: scroll;
+    }
+
+    .card-item img {
+        width: 61px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .text {
+        width: 42vw;
+        height: 0px;
+    }
+
+    nav ul li a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .login .loginbutton {
+        height: 23px;
+        width: 65px;
+        margin: 5px 0;
+    }
+
+    .card-item img {
+        width: 61px;
+    }
+
+    .card-item .lines {
+        font-size: 8px;
+    }
+
+    .my-2 {
+        font-size: 15px;
+    }
+
+    .text-center {
+        font-size: 12px;
+    }
+
+    .sld {
+        height: 200px;
+        ;
+    }
+
+    .cards {
+        overflow: scroll;
+    }
+}

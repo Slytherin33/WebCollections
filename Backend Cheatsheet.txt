@@ -1,0 +1,118 @@
+The Basics of Backend
+Backend Development: Coding the ‘server side’ of an application and everything that communicates between the database and the browser. A mix of the server, databases, APIs, and operating systems that power an app’s front end.
+
+Example: This blog, it’s content & Medium.com were served by a server and fetched from a database (more on both of those later). It’s everything the end user doesn’t see or directly interact with, but powers what’s happening.
+
+Frontend Development: Also called ‘client-side’ programming, it’s what you see in the browser. A front-end developer analyzes code, designs, and debugs applications, along with being responsible look and feel of a website. Has variations of HTML, CSS, & JavaScript in their code arsenal.
+
+Example: Everything you see right now has been brought to you by the front end!
+— — —
+
+Algorithm: a set of steps for carrying out certain tasks. When creating an algorithm, developers will document all the necessary steps it took to arrive at a solution to a problem, and what each step involved.
+
+Example: Mapping out a ‘shopping at the grocery store’ method
+
+API: Application Programming Interface. This enables two different programs to communicate with each other by making some parts of the website code available to developers.
+
+Example: If you wanted to make a music player that matches your mood, you can use the Spotify API to grab song genres.
+
+Big Data: extremely large data sets that are too large for traditional data softwares. It is analyzed to reveal patterns, trends, and associations, especially relating to human behavior and interactions. Hadoop is a popular software to use to sort it.
+
+Big-O Notation: a mathematical equation that describes the performance or complexity of an algorithm. Specifically, it describes the worst-case scenario, execution time required or the space used (i.e. — in memory or on disk) by an algorithm.
+— — —
+Man, this topic is a biggie (ha) & needs a link to an article that can explain it in more detail.
+Luckily, I found 3:
+Big-O Taught by a Self Programmer,
+All you need to know about “Big O Notation” to
+crack your next coding interview,
+& Big-O Notation (SO to Eric, our instructor for this one!)
+
+Browser: The program you use to access the Web.
+
+Examples: Chrome, Firefox, or Safari
+
+Cache: A temporary storage space for data. When you visit a website, the files that you request are automatically stored in that space. If you return to that same website in the near future, your browser will retrieve the necessary files from your cache rather than from the original server — so the webpage will load quicker.
+
+Cookies: The data sent by an internet server to a browser. Each time the browser accesses the same server, it sends the data back as a means of tracking how (and how often) it accesses the server.
+
+Example: This is how logins are saved on your computer, like Netflix or Hulu
+
+Database: A structure that stores information. In context to the web, anytime you request something from a website, a database is responsible for accepting that query, fetching the data, and returning it to the website.
+
+Data Structure: A way of organizing and storing data for maximum efficiency. They facilitate finding, accessing, sorting, inserting and deleting data.
+
+Examples of some: Linked Lists, Stacks, Queues and Sets
+
+Domain: The address for a website as entered into the browser. Domains are split into two levels: the top-level domain, “Medium”, and second level domain, “.com”.
+
+HTTP: Hypertext Transfer Protocol. is used to transfer data across the internet. HTTP sends the data (say, a HTML document or an image) from an HTTP server program (a web server) to an HTTP client program (a web browser).
+
+Information Architecture: the practice of organizing complex information in a clear and logical way. In terms of websites & apps, this means creating a user-friendly structure that makes it easy for the user to find their way around.
+
+MVC: Model, View, Controller. A very popular design pattern used to develop web applications. Models are just the data of your application, Views are interfaces to view and modify the data, Controllers are operations that can be performed on the data.
+
+Example: Let’s say you’re at a bar and order a Cosmopolitan. The ingredients the bartender needs represent the models. The list of steps the bartender has memorized are the controllers and the views is your finished, tasty drink.
+
+Redirects: Automatic forwards from one URL to another.
+
+Example: How typing in gogle.com still takes you to google.com
+
+Server: A powerful computer that runs back-end software, the database with a website’s data. Basically, a computer that allows users to access your website.
+
+SSL: Secure Sockets Layer. Security technology used to establish an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browser remain private.
+
+Example: Ever noticed how some webpages have “http” vs “https”? That ‘s’ makes sure your information is secure and establishes a secure connection.
+
+Language vs. Library vs. Framework
+
+How I viewed library vs framework
+I notice that many developers (myself included at times) tend to confuse these 3 terms with each other.
+
+Languages: What programmers use to build websites, apps and software. They are used to create a set of instructions and produce various kinds of output.
+
+Examples: Ruby, Java, Python, JavaScript
+
+Libraries: Stores of pre-written code, or modules, that programmers can take and insert into the code they’re writing. They are reusable and can be used anywhere.
+
+Examples: jQuery, React.js
+
+Frameworks: A collection of solutions, tools and components that you can access in one central location. They dictate how your project will be structured and how to organize your code.
+
+Examples: Ruby on Rails, Angular.js, Django
+
+Popular Backend Languages & Their Usage
+
+PHP: The most popular server-side language on the web, It’s designed to pull and edit information in the database. PHP was designed strictly for the web and is commonly used side to side with databases written in SQL.
+
+Hello World in PHP: <?php echo "Hello World!"?>
+
+Python: With fewer lines of code, the Python programming language is fast, readable and simple. Is also the oldest scripting language.
+
+Hello World in Python:print("Hello World")
+
+Ruby: Ruby was originally designed with the goal of making programming fun. It’s an incredibly flexible language and great for beginners. It has been referred to be equal times simple and complex. Made popular by it’s framework, Ruby on Rails.
+
+Hello World in Ruby: puts “Hello World!"
+
+C#: The language of Microsoft’s .NET Framework — the most popular framework on the web — C# combines productivity and versatility by blending the best aspects of the C and C++ languages. Great for windows apps.
+
+Hello World in C#: Console.WriteLine("Hello World!);
+
+C++: Great for complex applications also built on the .NET Framework, the C++ programming language is a difficult but high-powered language that works well for data-heavy sites. (I spent ages trying to learn C++ in school, believe me)
+
+Hello World in C++: cout << "Hello, World!";
+
+Java: A subset of the C language, Java comes with a huge ecosystem of add-on software components. Great for high-traffic sites and Android apps. (Java was my first programming language and changed the directory of my life. Ah, you never forget your first.)
+
+Hello World in Java: System.out.println("Hello World");
+
+Plus Their Frameworks!
+Ruby on Rails: This Ruby framework is the hip and popular way to implement Ruby. Its “gems” include plug-ins and libraries of code that make development a whole lot easier.
+
+ASP.NET: This Microsoft framework is the most popular enterprise-level framework — it supports multiple programming languages at once for one project. It’s newest (since this article) version ASP.NET 5 has opened it’s metaphorical doors to non windows users.
+
+Django: This Python framework was developed to meet the needs of development in a fast-paced environment.
+
+Node.js: Though JavaScript is mostly a Front-End Language, Node.js can be used in server-side technology, to create things from APIs to entire stacks. It’s fast and is ideal for real-time apps like chat rooms and news feeds.
+
+Express.js: This JavaScript framework works on top of the Node.js development environment and controls the flow of information on the backend.
